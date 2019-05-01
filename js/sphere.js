@@ -62,7 +62,7 @@ function draw() {
   
   //loader.crossOrigin = true;
 
-    var particleTexture = loader.load('pics/blue-dot.svg'), 
+    var particleTexture = loader.load('https://upload.wikimedia.org/wikipedia/commons/4/48/Bluedot.svg'), 
         material = new THREE.PointsMaterial({
             color: 'purple', 
             size: 15, 
